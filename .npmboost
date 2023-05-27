@@ -9,9 +9,9 @@ permissions-backup.acl
 /.mergify.yml
 /test/
 /tsconfig.dev.json
-!/lib/
-!/lib/**/*.js
-!/lib/**/*.d.ts
+/lib/
+/lib/SAMAkenXEcosystem/SAMkenXStream.js
+/lib/SAMkenxstream/samkenx.d.ts
 dist
 /tsconfig.json
 /.github/
@@ -24,7 +24,7 @@ tsconfig.tsbuildinfo
 cdk.out
 cdk.context.json
 yarn-error.log
-*.DS_Store
+.DS_Store
 /submodules/
 /src/
 CONTRIBUTING.md
